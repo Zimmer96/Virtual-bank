@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to tha Aareal Bank AG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="login-area">
+        <h1 class="text-center">Welcome to tha Aareal Bank AG</h1>
+        <div class="submit-area">
+            <!-- <h4>Login</h4>
+            <input type="email" class="login-field" >
+            <input type="password" name="" id="" class="login-field">
+            <button>Enter</button> -->
+           
+            <form>
+                <div class="form-group">
+                    <h4 >Login</h4>
+                    <br>
+                  <!-- <label for="exampleInputEmail1">Email address</label> -->
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email or username">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <!-- <label for="exampleInputPassword1">Password</label> -->
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+              
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out,if you fill up all the above informations.</label>
+                </div>
+                
+              </form>
+              <button id="enter" type="submit" class="btn btn-primary login-field">Enter</button>
+        </div>
+    </div>
+    
+    <div id="transaction-area">
+        <div class="container" style="background-color: rgb(14, 100, 100)";>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="images/v00541v4343.jpg" id="logo" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="#">Features</a>
+                    <a class="nav-item nav-link active" href="#">Offer</a>
+                    <a class="nav-item nav-link active" href="#" tabindex="-1" aria-disabled="true">Sign Up</a>
+                  </div>
+                </div>
+              </nav>
+        </div><br><br>
+        <div class="container carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-4">
+                        <h1>Trust</h1>
+                        <p>This is the best bank in the world for people who just want to waste their money in front of funky world.</p>
+                        
+                    </div>
+                    <div class="col-md-8">
+                     <img src="images/0.jpg" class="d-block w-100" alt="laptop">
+                    </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                   <div class="row d-flex align-items-center">
+                    <div class="col-md-4">
+                        <h1>High Interest rate</h1>
+                        <p>This is the best bank in the world for people who just want loan with high interest to get their rest of the life being destroyed.</p>
+                       
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/csm_Titelbild_Sprungbrett_Aareal-Bank_20e1132b42.jpg"  class="d-block w-70"   alt="...">
+                    </div>
+                   </div>
+                  </div>
+                  <div class="carousel-item">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-4">
+                        <h1>Less security</h1>
+                        <p>This is the wrost bank in the world for people who just want to waste their wealth.</p>
+                        
+                    </div>
+                    <div class="col-md-8">
+                     <img src="images/stellenangebote.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div><br><br>
+        <h3 id="heading2">Welcome to the transaction area</h3>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12	col-md-12	col-lg-4 col-xl-4">
+                    <div class="deposite status">
+                        <h5>Deposit</h5>
+                    <h3>$ <span id="currentDeposit">00</span></h3>
+                    </div>
+                </div>
+                <div class="col-sm-12	col-md-12	col-lg-4 col-xl-4 ">
+                    <div class="withdraw status">
+                        <h5>withdraw</h5>
+                    <h3>$<span id="currentWithdraw">00</span></h3>
+                    </div>
+                </div>
+                <div class="col-sm-12	col-md-12	col-lg-4 col-xl-4 ">
+                    <div class="balance status">
+                        <h5>Balance</h5>
+                    <h3>$ <span id="currentBalance">00</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12	col-md-12	col-lg-6 col-xl-6">
+                   <div class="withdraw-amount status2">
+                      
+                   
+                    
+                          <label for="exampleInputEmail1"><h3>Enter your withdraw amount</h3></label><br>
+                          <input type="number" class="form-control" id="withdrawAmount"  placeholder="$ amount you want to withdraw">
+                          <small id="emailHelp" class="form-text text-muted">The ammount will be reduced from your deposit</small><br>
+                       
+                        
+                        <button id="addWithdraw" type="submit" class="btn btn-primary">Withdraw</button>
+                        
+                     
+                     
+                   </div>
+                </div>
+                <div class="col-sm-12	col-md-12	col-lg-6 col-xl-6">
+                    <div class="deposit-amount status2">
+                      
+                          
+                              <label for="exampleInputEmail1"><h3>Enter your deposit amount</h3></label><br>
+                              <input type="number" class="form-control" id="depositAmount"  placeholder="$ amount you want to deposit">
+                              <small id="emailHelp" class="form-text text-muted">Only 1000 or 500 notes will be deposited</small><br>
+                          
+                            
+                       
+                            <button id="addDeposit" type="submit" class="btn btn-primary">Deposit</button>
+                          
+                          
+
+                        </div>
+                       
+                </div>
+            </div>
+        </div>
+        <div class="backButtons">
+            <button id="backButtons1" type="button" class="btn btn-success check-out">Back</button>
+           </div>
+     </div>
+    </div>
+    <script src="java.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

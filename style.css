@@ -1,0 +1,70 @@
+
+/* .bank-title{
+    position: relative;
+    left: 200px;
+    top: 200px;
+} */
+/* .carousel{
+    height: 500px;
+} */
+#logo{
+    width: 10%;
+}
+.login-field{
+    margin-top: 50px;
+}
+.submit-area{
+    margin-top: 50px;
+    padding: 50px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
+}
+#heading2{
+    text-align: center;
+}
+#transaction-area{
+    display: none;
+}
+.deposite{
+  
+   background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+   color: white;
+    margin: 15px 20px;
+   border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.status2{
+   
+    margin: 50px 20px;
+   border-radius: 10px;
+   padding: 50px;
+    
+    box-shadow: 5px 5px 10px gray;
+}
+#backButtons1{
+    float: left;
+	margin-left: 80px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+@media only screen and (min-width: 600px){
+    .body{
+        padding: 30px;
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        padding: 60px;
+    }
+
+}
